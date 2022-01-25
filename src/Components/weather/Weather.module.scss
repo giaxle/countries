@@ -1,0 +1,54 @@
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 1rem;
+    position: relative;
+    font-size: 1rem;
+    justify-content: center;
+}
+
+.weatherIconContainer {
+    text-align: center;
+    padding: 1rem;
+    width: 200px;
+}
+
+.weatherIcon {
+    border-radius: 5px;
+    background-color: #ffffff;
+}
+
+.weatherDataDiv {
+    padding: 1rem;
+    width: 200px;
+}
+
+.data {
+    padding: 1rem;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+
+.minMaxTemp {
+    opacity: 0.5;
+    font-weight: bold;
+}
+
+
+.tempConvertBtn {
+    font-size: 1.5rem;
+    width: 50px;
+    padding: .5rem;
+    position: absolute;
+    top: 0;
+    right: 0;
+    border-radius: 5px;
+    border: none;
+    font-weight: bold;
+}
+
+.tempConvertBtn:hover {
+    background-color: #000000;
+    color: #ffffff;
+}
